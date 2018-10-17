@@ -11,7 +11,8 @@
 	<data>
     <template id="assets_backend" name="Open Mobile Assets" inherit_id="web.assets_backend">
         <xpath expr=".">
-				<link rel="stylesheet" href="/backend_theme_extended/static/src/less/app_drawer.less"/>
+			<link rel="stylesheet" href="/backend_theme_extended/static/src/less/app_drawer.less"/>
+            <link rel="stylesheet" href="/backend_theme_extended/static/src/less/navbar.less"/>
         </xpath>
     </template>
 	</data>
