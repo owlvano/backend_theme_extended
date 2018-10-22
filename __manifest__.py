@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Web_Responsive (Custom Extension)",
+    'name': "Community Mobile Backend Theme (Custom Extension)",
 
-    'summary': "Custom Extension of web_responsive",
+    'summary': "Custom Extension of Odoo 10.0 Community Backend Theme (based on Openworx Theme)",
 
     'description': """
-        Backend theme extension, but for web_responsive module. It tries.
+        Backend theme for Odoo 10.0 Community Edition (based on Openworx Theme). Even more polished. It tries.
     """,
 
     'author': "Ivan Sova",
@@ -18,7 +18,7 @@
     'version': '10.0.2.0.1',
     'installable': True,
     # any module necessary for this one to work correctly
-    'depends': ['web_responsive'],
+    'depends': ['backend_theme'],
 
     # always loaded
     'data': [
